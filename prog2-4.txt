@@ -1,0 +1,7 @@
+#  Programa que los permite calcular la fuerza a partir de la masa y la aceleración
+#  la formula es F = M * A, la masa son los kilogramos del cuerpo y la aceleración en m / seg al cuadrado
+
+masa = float(input("Dame la masa en Kg: "))
+acce = float(input("Dame la aceleración en m/seg2: "))
+fza = masa * acce
+print("La fuerza es: ", fza, "m/seg2")
