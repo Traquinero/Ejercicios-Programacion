@@ -1,0 +1,6 @@
+# Programa que los permite convertir pies a metros, un 1 mts equivale a 3.28084 y un metro a pies es
+# 0.3048 ft,  1 mts = 0.3048 ft
+
+pies = float(input("Dame los pies: "))
+conv = pies * 0.3048
+print(conv, "metros")
