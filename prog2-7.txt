@@ -1,0 +1,13 @@
+# programa para calcular la velocidad final de un objeto sometido a un movimiento de caida libre
+# la formula es vf = raiz cuadrada del producto de gravedad y altura por dos.
+# la gravedad equivale a 9.81 m/seg2, consideramos en este caso particular la altura de 448.41 metros.
+
+from math import sqrt
+
+
+def vf(h):
+    vfn = sqrt(2 * 9.81 * h)
+    return vfn
+
+
+print("La velocidad final al momento del impacto es: ", vf(448.41), "m/seg")
