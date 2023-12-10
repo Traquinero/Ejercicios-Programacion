@@ -1,0 +1,11 @@
+Algoritmo Si_un_numero_positivo_o_negativo
+	// Realizar un diagrama de flujo que muestre el Proceso para determinar si un numero es positivo o negativo.
+	Definir num Como Real
+	Escribir "Dame un numero cualquiera: "
+	Leer num
+	Si num > 0 Entonces
+		Escribir "El numero " , num , " es positivo"
+	SiNo
+		Escribir "El numero " , num , " es negativo"
+	FinSi
+FinAlgoritmo
